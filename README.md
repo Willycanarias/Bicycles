@@ -52,4 +52,4 @@ All you need is... some time and...
 
 If you'd like to see how it works these procedures, I will give you the link to the endpoints on Postman:
 
-* POSTMAN
+* [POSTMAN](https://documenter.getpostman.com/view/20285106/2s83tFGWv8)
