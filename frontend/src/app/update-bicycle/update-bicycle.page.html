@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Modificar bicicleta</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <form [formGroup]="updateBicycleFg" (ngSubmit)="onSubmit()" novalidate>
+        <ion-item lines="full">
+          <ion-label position="floating">Marca</ion-label>
+          <ion-input formControlName="brand" type="text" required></ion-input>
+        </ion-item>
+        <span class="error ion-padding" *ngIf="isSubmitted && errorControl.brand.errors?.required">Brand is required.</span>
+        <ion-item lines="full">
+          <ion-label position="floating">Modelo</ion-label>
+          <ion-input formControlName="model" type="text" required></ion-input>
+        </ion-item>
+        <span class="error ion-padding" *ngIf="isSubmitted && errorControl.brand.errors?.required">Brand is required.</span>
+        <ion-item lines="full">
+          <ion-label position="floating">Imagen</ion-label>
+          <ion-input formControlName="filename" type="text" required></ion-input>
+        </ion-item>
+      <!--<ion-label>
+        <h1>{{b.brand}}</h1>
+        <p>{{b.model}}</p>
+        <ion-button color="light" slot="end" [routerLink]="['/update-bicycle/', b.id]">
+          <ion-icon color="warning"slot="end" name="construct-outline"></ion-icon>
+          Editar
+        </ion-button>
+      </ion-label>-->
+      <ion-button type="submit" color="primary" expand="block">Submit</ion-button>
+  </form>
+</ion-content>
