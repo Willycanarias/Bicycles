@@ -38,17 +38,10 @@ All you need is... some time and...
 * Visual Studio Code.
 * Ionic.
 
-* More hours than you first could think of...
-
-## Built With
+## It was built With:
 
 * [Visual Studio Code](https://code.visualstudio.com/) - The Editor used in this project
 * [Ionic 6](https://ionicframework.com/docs/intro) - Ionic Framework is an open source UI toolkit for building performant, high-quality mobile and desktop apps using web technologies (HTML, CSS, and JavaScript).
-
-## Acknowledgments
-
-* https://gist.github.com/PurpleBooth/109311bb0361f32d87a2. A very complete template for README.md files.
-* https://ionicframework.com/docs/angular/your-first-app. Ionic Start App Tutorial
 
 ## Postman
 
