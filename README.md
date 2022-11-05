@@ -28,7 +28,6 @@ Enjoy!
 
 ## Prerequisites
 
-All you need is... some time and...
 * Visual Studio Code.
 * Ionic.
 
