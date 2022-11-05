@@ -8,6 +8,8 @@ It captures images in Ionic, and pick photos up as well using Ionic Capacitor.
 
 Create MySQL database and configure database in ionic-express-sequelize-multer-photos/backend/config/db.config.js
 
+Download the frontend from here and put it in the project folder (decompress): https://drive.google.com/file/d/14Okhsor3FSNITEB8cJSiC9YoZAQa5UUi/view?usp=share_link
+
 Install dependencies and run backend:
 
 ```
