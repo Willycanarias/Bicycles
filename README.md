@@ -13,7 +13,7 @@ Download the frontend from here and put it in the project folder (decompress): h
 In order to install all dependencies in the backend, type the next commands in the terminal:
 
 ```
-cd ionic-express-sequelize-multer-photos/backend
+cd backend
 npm install
 node index.js
 ```
@@ -21,7 +21,7 @@ node index.js
 In order to install all dependencies in the frontend, type the next commands in the terminal:
 
 ```
-cd ionic-express-sequelize-multer-photos/frontend
+cd frontend
 npm install
 ionic serve
 ```
