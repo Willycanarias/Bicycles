@@ -1,16 +1,16 @@
-# Ionic + Express + Sequelize + Multer Example
+# Bicycles project
 
-This is a basic example using Ionic + Express + Sequelize + Multer that shows how to upload/download images using Multer.
+This project uses Ionic + Express + Sequelize + Multer (uploads/downloads pictures).
 
-It captures images in Ionic, and pick photos up as well using Ionic Capacitor.
+It captures pictures in Ionic, and selects photos using Ionic Capacitor too.
 
-## Getting Started
+## How to start
 
 Create MySQL database and configure database in ionic-express-sequelize-multer-photos/backend/config/db.config.js
 
 Download the frontend from here and put it in the project folder (decompress): https://drive.google.com/file/d/14Okhsor3FSNITEB8cJSiC9YoZAQa5UUi/view?usp=share_link
 
-Install dependencies and run backend:
+In order to install all dependencies in the backend, type the next commands in the terminal:
 
 ```
 cd ionic-express-sequelize-multer-photos/backend
@@ -18,15 +18,13 @@ npm install
 node index.js
 ```
 
-Install dependencies and run frontend:
+In order to install all dependencies in the frontend, type the next commands in the terminal:
 
 ```
 cd ionic-express-sequelize-multer-photos/frontend
 npm install
 ionic serve
 ```
-
-Enjoy!
 
 ## Prerequisites
 
@@ -35,8 +33,8 @@ Enjoy!
 
 ## It was built With:
 
-* [Visual Studio Code](https://code.visualstudio.com/) - The Editor used in this project
-* [Ionic 6](https://ionicframework.com/docs/intro) - Ionic Framework is an open source UI toolkit for building performant, high-quality mobile and desktop apps using web technologies (HTML, CSS, and JavaScript).
+* [Visual Studio Code](https://code.visualstudio.com/)
+* [Ionic 6](https://ionicframework.com/docs/intro)
 
 ## Postman
 
